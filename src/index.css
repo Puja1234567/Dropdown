@@ -1,0 +1,74 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(45deg,blue,red) */
+  background-image: url("dropWall.jpeg");
+  background-size: contain;
+  
+}
+
+/* App component style */
+.app{
+  height: 60vh;
+  width: 60vw;
+  background-color: #FDF2E9;
+  opacity: 0.5;
+  padding: 20px 40px;
+  position: relative;
+}
+.ans-p{
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  bottom: 20px;
+  right: 50px;
+}
+
+/* Home component style */
+.home button{
+  margin: 2px 0px;
+  margin-left: 33%;
+  width: 250px;
+  color: wheat;
+  background-color: #1C2833;
+  padding: 10px 20px;
+  border: 0px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  right: 40px;
+}
+.heading{
+  /* margin-right:50px; */
+  margin-left: 35%;
+  padding-bottom: 10px;
+}
+
+/* Dropdown component style */
+.dropdown{
+  width: 250px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-left: 33%;
+}
+.dropdown p{
+  width: 100%;
+  font-size: 18px;
+  color: black;
+  margin: 2px 0px;
+  cursor: pointer;
+}
+.dropdown p:hover{
+  background-color:peachpuff;
+  color: black;
+  padding: 10px;
+}
